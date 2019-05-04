@@ -3,17 +3,21 @@
 ## Dataset
 
 `msr_paraphrase_data.txt` is the whole data set.
+
 `msr_paraphrase_train.txt` is the train.
+
 `msr_paraphrase_test.txt` is the test.
 
 ## Code
 
 `SimilarityVectorizer.py` is the class for vector-based method.
+
 `WordnetSimilarity.py` is the class for wordnet-based method.
+
 `main.py` is the main class containing string similarity and the logistic regression for all.
 
 ### Running Sequence:
-* Just run main.py is ok, it might request you to download the wordnet_ic package.
+* Just run `main.py` is ok, it might request you to download the wordnet_ic package.
 * Use `import nltk \\ nltk.download("wordnet_ic")` to download.
 
 * Or you can run `SimilarityVectorizer.py` and `WordnetSimilarity.py` two modules first and then run `main.py`.
